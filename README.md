@@ -1,5 +1,5 @@
 # Intro 
-A Puppet module for setting up multiple python versions using [pythonbrew](https://github.com/ashwoods/puppet-pythonbrew)
+A Puppet module for setting up multiple python versions using [pythonbrew](https://github.com/ashwoods/puppet-pythonbrew).
 
 # Usage
 
@@ -21,3 +21,5 @@ A Puppet module for setting up multiple python versions using [pythonbrew](https
 # License
 Apache V2 see LICENSE-2.0.txt file
 
+# Todos
+See if its possible to support pip installs on specific python versions using virtualenv
