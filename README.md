@@ -8,12 +8,14 @@ A Puppet module for setting up multiple python versions using [pythonbrew](https
 
   python_version {'2.7.2':
     ensure      => 'present',
-    default_use => true
+    default_use => true,
+    require 	=> Class['pythonbrew']
   }
 
   python_version {'2.6.8':
     ensure      => 'present',
-    default_use => false
+    default_use => false,
+    require 	=> Class['pythonbrew']
   }
 
 ```
